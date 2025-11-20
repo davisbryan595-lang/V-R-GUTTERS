@@ -6,39 +6,39 @@ import { useState } from 'react'
 const galleryImages = [
   {
     id: 1,
-    title: 'Before & After - Gutter Cleaning',
-    src: 'https://images.unsplash.com/photo-1565182000675-b0ff131df867?w=500&h=600&fit=crop',
-    alt: 'Before and after gutter cleaning'
+    title: 'Professional House Exterior',
+    src: 'https://images.pexels.com/photos/1914833/pexels-photo-1914833.jpeg',
+    alt: 'Contemporary house with beautiful exterior and professional roof'
   },
   {
     id: 2,
-    title: 'Roof Maintenance',
-    src: 'https://images.unsplash.com/photo-1581578731548-c64695c952952?w=500&h=500&fit=crop',
-    alt: 'Professional roof maintenance work'
+    title: 'Roof & Gutter Systems',
+    src: 'https://images.pexels.com/photos/34023076/pexels-photo-34023076.jpeg',
+    alt: 'Professional roof maintenance and gutter systems'
   },
   {
     id: 3,
-    title: 'House Washing Results',
-    src: 'https://images.unsplash.com/photo-1569163139394-de4798aa62b3?w=500&h=600&fit=crop',
-    alt: 'Clean house exterior washing results'
+    title: 'Pressure Washing Service',
+    src: 'https://images.pexels.com/photos/5652626/pexels-photo-5652626.jpeg',
+    alt: 'Professional pressure washing and exterior cleaning'
   },
   {
     id: 4,
-    title: 'Gutter Guard Installation',
-    src: 'https://images.unsplash.com/photo-1577874543154-fee174e2d379?w=500&h=500&fit=crop',
-    alt: 'Professional gutter guard installation'
+    title: 'Gutter Installation',
+    src: 'https://images.pexels.com/photos/34006744/pexels-photo-34006744.jpeg',
+    alt: 'Professional gutter installation and repair'
   },
   {
     id: 5,
-    title: 'Detail Work Excellence',
-    src: 'https://images.unsplash.com/photo-1581578731548-c64695c952952?w=500&h=600&fit=crop',
-    alt: 'Detail work on roof edges'
+    title: 'Clean Residential Home',
+    src: 'https://images.pexels.com/photos/5997993/pexels-photo-5997993.jpeg',
+    alt: 'Clean modern house exterior with well-maintained landscaping'
   },
   {
     id: 6,
-    title: 'Complete Home Exterior',
-    src: 'https://images.unsplash.com/photo-1565182000675-b0ff131df867?w=500&h=500&fit=crop',
-    alt: 'Complete exterior maintenance project'
+    title: 'Professional Cleaning Equipment',
+    src: 'https://images.pexels.com/photos/6196228/pexels-photo-6196228.jpeg',
+    alt: 'Professional cleaning supplies and equipment'
   }
 ]
 
