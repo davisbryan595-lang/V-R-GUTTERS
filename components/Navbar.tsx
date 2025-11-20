@@ -18,9 +18,17 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 bg-white shadow-md z-40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex-shrink-0">
-            <Link href="#" className="text-2xl font-bold text-vr-green">
-              V&R
+          <div className="flex-shrink-0 flex items-center gap-2">
+            <Link href="#" className="flex items-center gap-2">
+              <div className="relative w-12 h-12">
+                <Image
+                  src="https://cdn.builder.io/api/v1/image/assets%2F98a3bf12d3fd43d6afbc24b607fa1ca0%2F008bdbf417ad42c5927dd0e365667fab?format=webp&width=800"
+                  alt="V&R Gutter Cleaning Logo"
+                  fill
+                  className="object-contain"
+                />
+              </div>
+              <span className="hidden sm:inline text-lg font-bold text-vr-green">V&R</span>
             </Link>
           </div>
 

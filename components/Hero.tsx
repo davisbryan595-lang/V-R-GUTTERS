@@ -5,12 +5,12 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden bg-cover bg-center" style={{backgroundImage: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1914833/pexels-photo-1914833.jpeg)'}}>
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden bg-cover bg-center" style={{backgroundImage: 'linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg)'}}>
       {/* Background Image - Next/Image Fallback */}
       <div className="absolute inset-0 -z-20 hidden">
         <Image
-          src="https://images.pexels.com/photos/1914833/pexels-photo-1914833.jpeg"
-          alt="Modern house exterior with professional roof"
+          src="https://images.pexels.com/photos/280222/pexels-photo-280222.jpeg"
+          alt="Modern family home exterior"
           fill
           className="object-cover"
           priority
@@ -18,19 +18,6 @@ export default function Hero() {
         />
       </div>
       <div className="text-center max-w-4xl mx-auto relative z-10">
-        {/* Logo */}
-        <div className="mb-8 flex justify-center">
-          <div className="relative w-full max-w-md h-64 md:h-80">
-            <Image
-              src="https://cdn.builder.io/api/v1/image/assets%2F98a3bf12d3fd43d6afbc24b607fa1ca0%2F008bdbf417ad42c5927dd0e365667fab?format=webp&width=800"
-              alt="V&R Gutter Cleaning Logo"
-              fill
-              className="object-contain drop-shadow-lg"
-              priority
-            />
-          </div>
-        </div>
-
         {/* Heading */}
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-4 drop-shadow-lg">
           V&R GUTTER CLEANING
