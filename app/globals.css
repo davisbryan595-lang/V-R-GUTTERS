@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #ffffff;
+  color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.text-vr-green {
+  color: #006400;
+}
+
+.text-vr-gray {
+  color: #4B5E40;
+}
+
+.bg-vr-green {
+  background-color: #006400;
+}
+
+.bg-vr-light-green {
+  background-color: #90EE90;
+}
+
+.border-vr-green {
+  border-color: #006400;
+}
+
+.hover\:bg-vr-light-green:hover {
+  background-color: #90EE90;
+}
+
+.hover\:shadow-vr-light {
+  box-shadow: 0 0 20px rgba(144, 238, 144, 0.3);
+}
+
+a {
+  color: #006400;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #4B5E40;
+}
+
+button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
