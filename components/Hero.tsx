@@ -5,9 +5,9 @@ import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden">
-      {/* Background Image */}
-      <div className="absolute inset-0 -z-10">
+    <section id="home" className="min-h-screen flex items-center justify-center pt-16 px-4 relative overflow-hidden bg-cover bg-center" style={{backgroundImage: 'linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(https://images.pexels.com/photos/1914833/pexels-photo-1914833.jpeg)'}}>
+      {/* Background Image - Next/Image Fallback */}
+      <div className="absolute inset-0 -z-20 hidden">
         <Image
           src="https://images.pexels.com/photos/1914833/pexels-photo-1914833.jpeg"
           alt="Modern house exterior with professional roof"
@@ -16,7 +16,6 @@ export default function Hero() {
           priority
           quality={90}
         />
-        <div className="absolute inset-0 bg-black/40"></div>
       </div>
       <div className="text-center max-w-4xl mx-auto relative z-10">
         {/* Logo */}
